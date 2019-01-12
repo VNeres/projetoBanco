@@ -19,13 +19,7 @@ namespace ProjetoBanco
             Endereco = endereco;
         }
 
-        public bool MaiorDeIdade()
-        {
-            var nascimentoMinimo = DateTime.Now.AddYears(-18);
-            var maiorDeIdade =  DataNascimento <= nascimentoMinimo;
 
-            return maiorDeIdade;
-        }
 
     }
 }
